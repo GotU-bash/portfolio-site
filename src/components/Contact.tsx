@@ -14,19 +14,19 @@ const Contact = () => {
         </p>
         <div className="flex justify-center space-x-6">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:cs.benyo2006@gmail.com"
             className="text-gray-200 hover:text-white transition-colors"
           >
             <Mail size={24} />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/cskbence/"
             className="text-gray-200 hover:text-white transition-colors"
           >
             <Linkedin size={24} />
           </a>
           <a
-            href="#"
+            href="https://github.com/GotU-bash"
             className="text-gray-200 hover:text-white transition-colors"
           >
             <Github size={24} />

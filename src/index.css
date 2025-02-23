@@ -18,3 +18,7 @@
     transform: translate(-10px, 10px);
   }
 }
+
+.scroll-margin-top {
+  scroll-margin-top: 4rem; /* Adjust this value based on your navbar height */
+}

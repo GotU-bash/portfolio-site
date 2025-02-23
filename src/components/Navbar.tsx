@@ -20,7 +20,7 @@ const Navbar = () => {
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
-                  className="text-gray-100 hover:text-blue-400 transition-colors"
+                  className="text-gray-100 hover:text-blue-400 transition-colors scroll-margin-top"
                 >
                   {item}
                 </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="block px-3 py-2 text-gray-100 hover:text-blue-400 transition-colors"
+                className="block px-3 py-2 text-gray-100 hover:text-blue-400 transition-colors scroll-margin-top"
                 onClick={() => setIsOpen(false)}
               >
                 {item}
