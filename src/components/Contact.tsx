@@ -1,6 +1,15 @@
 import { Mail, Linkedin, Github } from "lucide-react";
+import { useState, useEffect } from "react";
 
 const Contact = () => {
+  const [email, setEmail] = useState("");
+
+  useEffect(() => {
+    const encodedEmail = "Y3MuYmVueW8yMDA2QGdtYWlsLmNvbQ==";
+    const decodedEmail = window.atob(encodedEmail);
+    setEmail(decodedEmail);
+  }, []);
+
   return (
     <section
       id="contact"
@@ -14,11 +23,12 @@ const Contact = () => {
         </p>
         <div className="flex justify-center space-x-6">
           <a
-            href="mailto:cs.benyo2006@gmail.com"
             className="text-gray-200 hover:text-white transition-colors"
+            href={`mailto:${email}`}
           >
             <Mail size={24} />
           </a>
+
           <a
             href="https://www.linkedin.com/in/cskbence/"
             className="text-gray-200 hover:text-white transition-colors"
