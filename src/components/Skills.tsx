@@ -4,8 +4,8 @@ const Skills = () => {
       title: "Programming 👨‍💻",
       skills: [
         { name: "C", level: 100 },
-        { name: "C++", level: 65 },
-        { name: "Javascript", level: 70 },
+        { name: "Typescript", level: 85 },
+        { name: "Javascript", level: 90 },
         { name: "Python", level: 75 },
       ],
     },
@@ -23,7 +23,7 @@ const Skills = () => {
       skills: [
         { name: "React", level: 85 },
         { name: "Node.js", level: 80 },
-        { name: "HTML/CSS", level: 90 },
+        { name: "HTML/CSS", level: 100 },
         { name: "Tailwind", level: 70 },
       ],
     },
