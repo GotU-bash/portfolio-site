@@ -10,14 +10,14 @@ const About = () => {
         </h2>
         <div className="bg-gray-800/50 p-6 rounded-lg backdrop-blur-sm">
           <p className="text-gray-100 mb-4">
-            I'm a passionate student pursuing a dual focus in Electrical
-            Engineering and Programming. With a strong foundation in both
+            I'm a passionate student pursuing a dual focus in Programming/DevOps
+            and Electrical Engineering. With a strong foundation in both
             hardware and software, I bring a unique perspective to solving
             complex technical challenges.
           </p>
           <p className="text-gray-100">
-            Currently exploring the intersection of embedded systems and
-            software development, I'm always eager to learn new technologies and
+            Currently exploring the intersection of cloud systems and software
+            development, I'm always eager to learn new technologies and
             contribute to innovative projects.
           </p>
         </div>
