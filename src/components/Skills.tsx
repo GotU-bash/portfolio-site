@@ -3,10 +3,19 @@ const Skills = () => {
     {
       title: "Programming 👨‍💻",
       skills: [
-        { name: "C", level: 100 },
+        { name: "Python", level: 100 },
         { name: "Typescript", level: 85 },
         { name: "Javascript", level: 90 },
-        { name: "Python", level: 75 },
+        { name: "C++", level: 75 },
+      ],
+    },
+    {
+      title: "DevOps 🛠️",
+      skills: [
+        { name: "Linux/Servers", level: 95 },
+        { name: "Bash", level: 90 },
+        { name: "Kubernetes", level: 70 },
+        { name: "Docker", level: 80 },
       ],
     },
     {
@@ -25,15 +34,6 @@ const Skills = () => {
         { name: "Node.js", level: 80 },
         { name: "HTML/CSS", level: 100 },
         { name: "Tailwind", level: 70 },
-      ],
-    },
-    {
-      title: "Tools 🛠️",
-      skills: [
-        { name: "Git", level: 95 },
-        { name: "VS Code", level: 90 },
-        { name: "MATLAB", level: 70 },
-        { name: "Arduino", level: 80 },
       ],
     },
   ];

@@ -9,7 +9,7 @@ const Hero = () => {
           Hi, I'm <span className="text-blue-400">Bence Csík</span> 👋
         </h1>
         <p className="text-xl sm:text-2xl text-gray-200 mb-8">
-          Electrical Engineer 🔌 & Programmer 💻
+          Developer 🔌 & DevOps Engineer 💻
         </p>
         <a
           href="#contact"
